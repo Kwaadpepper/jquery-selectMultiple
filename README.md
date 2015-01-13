@@ -13,13 +13,13 @@ HTML
 
 JS
 ```
-  $('#SCM').multipleSelect();
+  $('#SCM').selectMultiple();
 ```
 
 or just do
 
 ```
-  $.multipleSelectForAll();
+  $.selectMultipleForAll();
 ```
 
 Please feel free to add upgrades to this !
