@@ -45,7 +45,7 @@ $.fn.selectMultiple._setID = function(id) {
   return id.id;
 }
 
-$.multipleSelectForAll = function() {
+$.selectMultipleForAll = function() {
   $('select[multiple="true"]').each(function() {
     $(this).attr('select-id',$.fn.selectMultiple._setID());
   });
